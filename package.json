@@ -1,0 +1,40 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "react-query-persistent-cache",
+  "title": "React Query Persistent Cache",
+  "description": "",
+  "icon": "command-icon.png",
+  "author": "thomas",
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "test-react-query",
+      "title": "Test React Query",
+      "description": "",
+      "mode": "view"
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.33.0",
+    "axios": "^0.27.1",
+    "node-fetch": "^3.2.3",
+    "react-dom": "^18.0.0",
+    "react-query": "https://pkg.csb.dev/tannerlinsley/react-query/commit/97aa0258/react-query"
+  },
+  "devDependencies": {
+    "@types/node": "~16.10.0",
+    "@types/react": "^17.0.28",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "build": "ray build -e dist",
+    "dev": "ray develop",
+    "fix-lint": "ray lint --fix",
+    "lint": "ray lint"
+  }
+}
