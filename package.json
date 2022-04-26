@@ -18,7 +18,6 @@
     "@raycast/api": "^1.33.0",
     "axios": "^0.27.1",
     "node-fetch": "^3.2.3",
-    "react-dom": "^18.0.0",
     "react-query": "https://pkg.csb.dev/tannerlinsley/react-query/commit/97aa0258/react-query"
   },
   "devDependencies": {
